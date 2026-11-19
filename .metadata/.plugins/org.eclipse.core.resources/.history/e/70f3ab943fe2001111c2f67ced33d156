@@ -1,0 +1,9 @@
+package oops;
+
+public class BankAccount {
+	
+	long AccNo;
+	String AccHolderName, add;
+	float bal;
+
+}

@@ -1,0 +1,15 @@
+package oops;
+
+public abstract class WhatsAppV5 {
+	
+	public void aiImage() {
+		System.out.println("ai created images");
+	}
+	
+	public void reShare() {
+		System.out.println("reshare Status");
+	}
+	
+	
+
+}

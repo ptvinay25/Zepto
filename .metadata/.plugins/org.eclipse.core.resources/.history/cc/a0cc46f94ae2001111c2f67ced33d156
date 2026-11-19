@@ -1,0 +1,19 @@
+package oops;
+
+public class WhatsappV6 extends WhatsAppV5{
+
+	@Override
+	public void instantLive() {
+		// TODO Auto-generated method stub
+		System.out.println("locate");
+	}
+	
+	public static void main(String[] args) {
+		WhatsappV6 w = new WhatsappV6();
+		
+		w.aiImage();
+		w.reShare();
+		w.instantLive();
+	}
+
+}

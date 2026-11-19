@@ -1,0 +1,10 @@
+package oops;
+
+public class Navdeep extends Ajay{
+	
+	
+	public void speed() {
+		System.out.println("60kmph");
+	}
+
+}

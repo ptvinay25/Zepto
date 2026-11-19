@@ -1,0 +1,15 @@
+package baisc;
+
+public class Pen {
+	
+	public Pen() {
+		
+		System.out.println("Constructor");
+		
+	}
+	
+	public static void main(String[] args) {
+//		Pen p1 = new Pen();
+	}
+
+}

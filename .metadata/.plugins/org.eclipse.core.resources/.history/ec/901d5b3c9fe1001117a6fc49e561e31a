@@ -1,0 +1,23 @@
+package baisc;
+
+public class Pen {
+	
+	String col;
+	String com;
+	float price;
+	public Pen(String col, String com, float price) {
+
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Main");
+		Pen p1 = new Pen("red", "cello", 10.0f);
+		System.out.println(p1.col);
+		System.out.println(p1.com);
+		System.out.println(p1.price);
+		
+		
+		
+	}
+
+}

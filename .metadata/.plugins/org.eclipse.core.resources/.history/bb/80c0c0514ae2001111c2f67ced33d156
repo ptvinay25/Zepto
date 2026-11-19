@@ -1,0 +1,22 @@
+package oops;
+
+public class Bhavya extends BankAccount{
+	
+	
+	public Bhavya(long accNo, String accHolderName, String add, float bal) {
+		super(accNo, accHolderName, add, bal);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+	
+		Bhavya b = new Bhavya(273647223l, "Bhavya", "blr", 93874.0f);
+		
+		System.out.println(b.getBal());
+		
+		b.setBal(100.0f);
+
+		System.out.println(b.getBal());
+	}
+
+}

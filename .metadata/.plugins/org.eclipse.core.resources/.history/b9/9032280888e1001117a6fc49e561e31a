@@ -1,0 +1,26 @@
+package baisc;
+
+public class isPrimeNumber {
+	
+	 int age = 20;
+	
+	public static void main(String[] args) {
+		
+//		int res = add(10,20);
+//		System.out.println(res);
+		add(10,20);
+		
+		isPrimeNumber i = new isPrimeNumber();
+		
+		System.out.println(i.age);
+			
+	}
+	
+	static void add(int a, int b) {
+		System.out.println(a+b);
+		
+	}
+	
+	
+
+}

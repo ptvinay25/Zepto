@@ -1,0 +1,18 @@
+package oops;
+
+public class Bhavya extends BankAccount{
+	
+	public Bhavya(long accNo) {
+		this.AccNo = accNo;
+	}
+	
+	public static void main(String[] args) {
+		Bhavya b = new Bhavya(873l);
+		
+		b.withDraw(1000.0f);
+		
+		Navdeep n = new Navdeep();
+		n.withDraw(7890.0f);
+	}
+
+}

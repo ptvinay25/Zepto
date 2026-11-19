@@ -1,0 +1,24 @@
+package baisc;
+
+public class Pen {
+	
+	String col;
+	String com;
+	float price;
+	
+	public Pen() {
+		System.out.println("Constructor");
+	}
+	
+	public Pen(String col, String com, float price) {
+		System.out.println(col);
+		System.out.println(com);
+		System.out.println(price);
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Main");
+		Pen p1 = new Pen();
+	}
+
+}

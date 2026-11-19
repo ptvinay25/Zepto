@@ -1,0 +1,5 @@
+package oops;
+
+public class WhatsAppV7 extends WhatsappV6{
+
+}

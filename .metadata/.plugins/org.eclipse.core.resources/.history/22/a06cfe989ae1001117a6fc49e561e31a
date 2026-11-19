@@ -1,0 +1,14 @@
+package baisc;
+
+public class Pen {
+	
+	public Pen() {
+		super();
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Main");
+		Pen p1 = new Pen();
+	}
+
+}

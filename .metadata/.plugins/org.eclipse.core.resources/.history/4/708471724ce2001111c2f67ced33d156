@@ -1,0 +1,21 @@
+package oops;
+
+public class WhatsAppV7 extends WhatsappV6{
+
+	@Override
+	public void sharePostInsta() {
+		// TODO Auto-generated method stub
+		System.out.println("Update post in Insta from Whatsapp");
+		
+	}
+
+	public static void main(String[] args) {
+		WhatsappV6 w = new WhatsAppV7();
+		
+		w.aiImage();
+		w.reShare();
+		w.instantLive();
+		w.sharePostInsta();
+	}
+	
+}

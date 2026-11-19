@@ -1,0 +1,15 @@
+package oops;
+
+public class BankAccount {
+	
+	private long AccNo;
+	private String AccHolderName, add;
+	private float bal;
+	
+	
+	
+	public void withDraw(float amount) {
+		System.out.println(amount);
+	}
+
+}
